@@ -9,22 +9,37 @@ importers:
   .:
     dependencies:
       '@astrojs/react':
-        specifier: ^4.1.5
+        specifier: 4.1.5
         version: 4.1.5(@types/react-dom@19.0.3(@types/react@19.0.7))(@types/react@19.0.7)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@fontsource-variable/grandstander':
+        specifier: ^5.1.2
+        version: 5.1.2
+      '@fontsource-variable/oxanium':
+        specifier: ^5.1.1
+        version: 5.1.1
+      '@fontsource-variable/shantell-sans':
+        specifier: ^5.1.1
+        version: 5.1.1
+      '@fontsource-variable/tourney':
+        specifier: 5.1.1
+        version: 5.1.1
+      '@fontsource/special-elite':
+        specifier: ^5.1.1
+        version: 5.1.1
       '@types/react':
-        specifier: ^19.0.7
+        specifier: 19.0.7
         version: 19.0.7
       '@types/react-dom':
-        specifier: ^19.0.3
+        specifier: 19.0.3
         version: 19.0.3(@types/react@19.0.7)
       astro:
-        specifier: ^5.1.7
+        specifier: 5.1.7
         version: 5.1.7(rollup@4.30.1)(typescript@5.7.3)
       react:
-        specifier: ^19.0.0
+        specifier: 19.0.0
         version: 19.0.0
       react-dom:
-        specifier: ^19.0.0
+        specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
 
 packages:
@@ -290,6 +305,21 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/grandstander@5.1.2':
+    resolution: {integrity: sha512-lKHS+JE9sgt8Jy8aIFI1brWUjfvsX8kkmhxmgQxD2bBdqXVhjid3tM1tSfEPa8RbZqZ00Yzv2nTtN3IC0jOfEg==}
+
+  '@fontsource-variable/oxanium@5.1.1':
+    resolution: {integrity: sha512-XPCQSJKTyomglceyxE61QIJuGTepA8VXx5ea/2r31+52Vac/uZgT1VbT2E1j2HBaX8Zq7gx27SbOPp8Y9v6qWQ==}
+
+  '@fontsource-variable/shantell-sans@5.1.1':
+    resolution: {integrity: sha512-+iHKsVYKK+FsZscwi3XsfHO6rAuNmaIim4c2y1Ou9vVNhEfjB+hc1eOy6VJ22LRXFj0FdIQjJeclPSEHEKtbmA==}
+
+  '@fontsource-variable/tourney@5.1.1':
+    resolution: {integrity: sha512-LtXU91ttr+DW676WsWChj8gsdM+QKG0uFXnogOyfQUXrqbM6BAXoD9cuNQHKAoAalsdkOAVZpG5oCD5BykPRAw==}
+
+  '@fontsource/special-elite@5.1.1':
+    resolution: {integrity: sha512-g9xcbfXUkpB+ERgNnPYFf3v6alsYhAMUIg0waCussNV6c9bsH9O+SQXWoeXzrlrSraCDU/HMLP7Klu6zSWkHSw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1964,6 +1994,16 @@ snapshots:
 
   '@esbuild/win32-x64@0.24.2':
     optional: true
+
+  '@fontsource-variable/grandstander@5.1.2': {}
+
+  '@fontsource-variable/oxanium@5.1.1': {}
+
+  '@fontsource-variable/shantell-sans@5.1.1': {}
+
+  '@fontsource-variable/tourney@5.1.1': {}
+
+  '@fontsource/special-elite@5.1.1': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:

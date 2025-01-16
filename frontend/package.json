@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "@astrojs/react": "4.1.5",
+    "@fontsource-variable/grandstander": "^5.1.2",
+    "@fontsource-variable/oxanium": "^5.1.1",
+    "@fontsource-variable/shantell-sans": "^5.1.1",
+    "@fontsource-variable/tourney": "5.1.1",
+    "@fontsource/special-elite": "^5.1.1",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "astro": "5.1.7",
