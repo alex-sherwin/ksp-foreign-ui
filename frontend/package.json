@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "astro": "ASTRO_TELEMETRY_DISABLED=1 astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "4.1.5",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "astro": "5.1.7",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
